@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siêu Thị Túi Vải: Xưởng May Túi Vải Giá Rẻ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Siêu Thị Túi Vải</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Sản phẩm</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Túi vải không dệt</h2>
+                <p>Chọn cho mình mùi hương ưng ý nhất tại Tiệm Nước Hoa</p>
+                <a href="https://sieuthituivai.com/danh-muc/tui-vai-khong-det/" class="button">Xem thêm</a>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <h2>Sản phẩm nổi bật</h2>
+                <div class="product-grid">
+                    <!-- Product items will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <h2>Về Tiệm Nước Hoa</h2>
+                <p>Nội dung giới thiệu về Tiệm Nước Hoa...</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <h2>Liên hệ</h2>
+                <p>Thông tin liên hệ của Tiệm Nước Hoa...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Tiệm Nước Hoa</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

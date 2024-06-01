@@ -1,0 +1,27 @@
+// Example: Dynamically loading product items
+const productItems = [
+    {
+        name: "Nước hoa A",
+        imageUrl: "https://tiemnuochoa.vn/wp-content/uploads/2023/09/Nuoc-hoa-Phap-cho-nu.jpg",
+        price: "1,000,000 VND"
+    },
+    {
+        name: "Nước hoa B",
+        imageUrl: "https://tiemnuochoa.vn/wp-content/uploads/2023/09/Nuoc-hoa-Phap-cho-nu.jpg",
+        price: "1,500,000 VND"
+    },
+    // ... more product items
+];
+
+const productGrid = document.querySelector(".product-grid");
+
+productItems.forEach(item => {
+    const productItem = document.createElement("div");
+    productItem.classList.add("product-item");
+    productItem.innerHTML = `
+        <img src="${item.imageUrl}" alt="${item.name}">
+        <h3>${item.name}</h3>
+        <p>${item.price}</p>
+    `;
+    productGrid.appendChild(productItem);
+});
